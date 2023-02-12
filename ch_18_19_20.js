@@ -1,7 +1,11 @@
 let courses = [];
 
-let course1 = prompt("course 1 ", "computer");
-courses.push(course1);
+for (let i = 0; i < 5; i++)
+{
+  courses.push(prompt("course " + i, courses[i]));
+}
+
+let course1 = 
 let course2 = prompt("course 2 ", "python");
 courses.push(course2);
 let course3 = prompt("course 3 ", "java");
