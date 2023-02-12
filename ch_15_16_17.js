@@ -1,5 +1,7 @@
-let scores = [];
-let lasName = "Alam";
-let age = 20;
+let courses = [];
+for (let i = 0; i < 5; i++)
+{
+  courses.push(prompt("Course Name"))
+}
 
-alert(`Hello ${firstName} ${lasName}, You are ${age} years old`);
+alert(courses);
